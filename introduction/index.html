@@ -1,5 +1,10 @@
 <!DOCTYPE html>
-<html>
+
+<!-- Warning: Consider adding a lang attribute
+   to the html start tag to declare the language 
+   of this document. -->
+
+<html lang="en">
   <head>
     <title>this is my first web page</title>
 
@@ -28,7 +33,15 @@
   </head>
 
   <body>
-    <img class="picture" src="image/cat.jpg" />
+    <!-- Error: An img element must have an alt attribute, 
+      except under certain conditions. For details,
+       consult guidance on providing text alternatives for images. -->
+
+    <img
+      class="picture"
+      src="image/cat.jpg"
+      alt="This is the picture of cats"
+    />
 
     <p class="line1">THEY ARE CATS</p>
     <p class="line2">I LOVE CATS</p>
